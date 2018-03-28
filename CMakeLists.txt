@@ -12,7 +12,7 @@ PROJECT(threadedStereo)
 SET(THREADED_STEREO_LIB "ts")
 
 CMAKE_MINIMUM_REQUIRED(VERSION 2.4)
-
+set(CMAKE_CXX_STANDARD 98)
 # This can removed if the required cmake version is increased to 2.6
 IF(COMMAND CMAKE_POLICY)
   CMAKE_POLICY(SET CMP0003 NEW)
