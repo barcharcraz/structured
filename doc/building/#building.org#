@@ -1,6 +1,6 @@
-#+title: Building
-
 First build requirements listed in [[file:requirements.org]].
+
+#+title: Building
 #+begin_src fish
   mkdir builddir
   cd builddir
