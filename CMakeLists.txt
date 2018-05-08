@@ -57,19 +57,12 @@ ENDIF(INSOURCE)
 #   eg. cmake . -DCMAKE_BUILD_TYPE=Release -DDEBUG_PROFILING=on
     
 
-# Build types are: Release, Debug, RelWithDebInfo, MinSizeRel
-IF( NOT CMAKE_BUILD_TYPE )
- SET( CMAKE_BUILD_TYPE Release )  
-ENDIF( NOT CMAKE_BUILD_TYPE )
 
 
 #-----------------------#
 # Installation Options  #
 #-----------------------#
 
-IF( NOT CMAKE_INSTALL_PREFIX )
-   SET( CMAKE_INSTALL_PREFIX "/usr/local" )
-ENDIF( NOT CMAKE_INSTALL_PREFIX )
 
 IF(USE_AUV_FOR_STEREO)
 message("Using AUV Code for Stereo")
